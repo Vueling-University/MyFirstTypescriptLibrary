@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/sergiJimenez/MyFirstTypescriptLibrary#readme",
   "devDependencies": {
+    "@types/node": "^18.15.3",
     "prettier": "^2.8.4",
     "prompt-sync": "^4.2.0",
     "tslint": "^6.1.3",

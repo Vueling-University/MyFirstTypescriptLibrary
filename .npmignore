@@ -1,5 +1,8 @@
+node_modules
 src
+.gitignore
+.prettierrc
+jestconfig.json
+package-lock.json
 tsconfig.json
 tslint.json
-.prettierrc
-node_modules
