@@ -14,7 +14,7 @@ var Calculator = /** @class */ (function () {
         console.log("".concat(firstNumber * secondNumber));
     };
     Calculator.prototype.divideNumbers = function (firstNumber, secondNumber) {
-        if (secondNumber != 0) {
+        if (secondNumber !== 0) {
             console.log("".concat(firstNumber / secondNumber));
         }
         else {
