@@ -16,6 +16,7 @@ export class Calculator {
             // tslint:disable-next-line:no-console
             console.log(`${firstNumber / secondNumber}`); 
         } else {
+            // tslint:disable-next-line:no-console
             console.log('You can not divide with 0... Try to type another one.');
         }
     }

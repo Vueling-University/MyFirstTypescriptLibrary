@@ -22,6 +22,7 @@ var Calculator = /** @class */ (function () {
             console.log("".concat(firstNumber / secondNumber));
         }
         else {
+            // tslint:disable-next-line:no-console
             console.log('You can not divide with 0... Try to type another one.');
         }
     };
