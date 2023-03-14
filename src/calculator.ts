@@ -9,7 +9,7 @@ export class Calculator {
         console.log(`${firstNumber * secondNumber}`);
     }
     public divideNumbers(firstNumber: number, secondNumber: number): void {
-        if (secondNumber != 0) {
+        if (secondNumber !== 0) {
             console.log(`${firstNumber / secondNumber}`);
         } else {
             console.log('You can not divide with 0... Try to type another one.');

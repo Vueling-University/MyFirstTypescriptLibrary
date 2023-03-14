@@ -1,7 +1,7 @@
 import { Calculator } from "./calculator";
-let calculator = new Calculator();
+const calculator = new Calculator();
 
-let input = require('prompt-sync')();
+const input = require('prompt-sync')();
 let userOption : number;
 let finished : boolean = false;
 let firstNumber : number;
