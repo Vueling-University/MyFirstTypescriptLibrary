@@ -1,5 +1,5 @@
-import { MyFirstTypescriptLibrary } from '../index';
+import { Calculator } from '../calculator';
 
 test('MyFirstTypescriptLibrary', () => {
-  expect(MyFirstTypescriptLibrary('Sergi')).toBe('Hello Sergi');
+    // expect(Calculator()).toBe();
 });
