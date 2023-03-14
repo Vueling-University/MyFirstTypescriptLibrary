@@ -1,6 +1,7 @@
 import { Calculator } from "./calculator";
 const calculator = new Calculator();
 
+// tslint:disable no-var-requires
 const input = require('prompt-sync')();
 let userOption : number;
 let finished : boolean = false;

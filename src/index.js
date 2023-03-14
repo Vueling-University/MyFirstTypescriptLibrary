@@ -2,6 +2,7 @@
 exports.__esModule = true;
 var calculator_1 = require("./calculator");
 var calculator = new calculator_1.Calculator();
+// tslint:disable no-var-requires
 var input = require('prompt-sync')();
 var userOption;
 var finished = false;
