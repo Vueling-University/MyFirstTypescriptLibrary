@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/sergiJimenez/MyFirstTypescriptLibrary.git"
   },
-  "keywords": [],
+  "keywords": ["calculator"],
   "author": "",
   "license": "ISC",
   "bugs": {
