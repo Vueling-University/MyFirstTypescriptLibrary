@@ -14,7 +14,7 @@ var Calculator = /** @class */ (function () {
         return firstNumber * secondNumber;
     };
     Calculator.prototype.divideNumbers = function (firstNumber, secondNumber) {
-        if (secondNumber != 0) {
+        if (secondNumber !== 0) {
             return firstNumber / secondNumber;
         }
         else {
