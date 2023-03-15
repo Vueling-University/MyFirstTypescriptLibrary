@@ -1,7 +1,6 @@
 export declare class Calculator {
-    errorMessage: string;
-    addNumbers(firstNumber: number, secondNumber: number): void;
-    substractNumbers(firstNumber: number, secondNumber: number): void;
-    multiplyNumbers(firstNumber: number, secondNumber: number): void;
-    divideNumbers(firstNumber: number, secondNumber: number): void;
+    addNumbers(firstNumber: number, secondNumber: number): number;
+    substractNumbers(firstNumber: number, secondNumber: number): number;
+    multiplyNumbers(firstNumber: number, secondNumber: number): number;
+    divideNumbers(firstNumber: number, secondNumber: number): number | "You can not divide with 0... Try to type another one.";
 }
