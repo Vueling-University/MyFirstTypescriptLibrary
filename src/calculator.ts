@@ -1,5 +1,5 @@
 export class Calculator {
-  errorMessage : string = "You can not divide with 0... Try to type another one.";
+  errorMessage: string = 'You can not divide with 0... Try to type another one.';
   public addNumbers(firstNumber: number, secondNumber: number): void {
     // firstNumber + secondNumber;
     // tslint:disable-next-line:no-console

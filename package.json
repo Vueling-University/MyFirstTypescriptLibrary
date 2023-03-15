@@ -1,10 +1,10 @@
 {
   "name": "myfirsttypescriptlibrary",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A nice start",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
