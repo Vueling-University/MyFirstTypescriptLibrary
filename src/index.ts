@@ -31,7 +31,8 @@ do {
       console.log('Introduce both numbers:');
       firstNumber = input();
       secondNumber = input();
-      calculator.addNumbers(Number(firstNumber), Number(secondNumber));
+      // tslint:disable-next-line:no-console
+      console.log(calculator.addNumbers(Number(firstNumber), Number(secondNumber)));
       break;
 
     case 2:
@@ -39,7 +40,8 @@ do {
       console.log('Introduce both numbers:');
       firstNumber = input();
       secondNumber = input();
-      calculator.substractNumbers(Number(firstNumber), Number(secondNumber));
+      // tslint:disable-next-line:no-console
+      console.log(calculator.substractNumbers(Number(firstNumber), Number(secondNumber)));
       break;
 
     case 3:
@@ -47,7 +49,8 @@ do {
       console.log('Introduce both numbers:');
       firstNumber = input();
       secondNumber = input();
-      calculator.multiplyNumbers(Number(firstNumber), Number(secondNumber));
+      // tslint:disable-next-line:no-console
+      console.log(calculator.multiplyNumbers(Number(firstNumber), Number(secondNumber)));
       break;
 
     case 4:
@@ -55,7 +58,8 @@ do {
       console.log('Introduce both numbers:');
       firstNumber = input();
       secondNumber = input();
-      calculator.divideNumbers(Number(firstNumber), Number(secondNumber));
+      // tslint:disable-next-line:no-console
+      console.log(calculator.divideNumbers(Number(firstNumber), Number(secondNumber)));
       break;
 
     case 0:
